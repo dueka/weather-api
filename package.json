@@ -1,0 +1,22 @@
+{
+  "name": "weather-api",
+  "version": "1.0.0",
+  "description": "This returns weather and current time from a weather api. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dueka/weather-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dueka/weather-api/issues"
+  },
+  "homepage": "https://github.com/dueka/weather-api#readme",
+  "dependencies": {
+    "mocha": "^8.0.1"
+  }
+}
