@@ -1,0 +1,30 @@
+{
+  "name": "weather-api",
+  "version": "1.0.0",
+  "description": "This returns weather and current time from a weather api. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn run build:live",
+    "build:live": "nodemon --watch weather --exec weather/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dueka/weather-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dueka/weather-api/issues"
+  },
+  "homepage": "https://github.com/dueka/weather-api#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "http": "^0.0.1-security",
+    "mocha": "^8.0.1",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
